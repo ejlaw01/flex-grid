@@ -4,7 +4,7 @@
 
 #### By _**Kyle Lange and Ethan Law**_
 
-### [See it live here.](https://kylelange.github.io/flex-grid/) ###
+### [See it live here.](https://kylelange.github.io/flex-grid) ###
 
 ![screenshot](Screen Shot.png)
 
