@@ -12,6 +12,7 @@ h1 {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
   .box {
     @extend %tile;
   }
@@ -21,7 +22,7 @@ h1 {
   }
 
   .rectangle {
-    flex-grow: 2;
+    flex-grow: 8;
   }
 
   .sqrangle {
