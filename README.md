@@ -1,15 +1,12 @@
-# _App Name_
+# _Flexy Flexy Boxes_
 
-#### _{A responsive site + short desc.}, {Dec 2, 2016}_
+#### _{A PRACTICE site to use flexbox with Sass}, {Dec 2, 2016}_
 
-#### By _**Kyle Lange**_
+#### By _**Kyle Lange and Ethan Law**_
+
+### [See it live here.](https://kylelange.github.io/flex-grid/) ###
 
 ![screenshot](Screen Shot.png)
-
-
-## Description
- This week's code review must include:
-
 
 ## Setup/Installation Requirements
 
@@ -19,7 +16,27 @@
 
 3. run/check-out the program by dropping the index/html file from your folder into your web browser
 
-Install Sass/Bourbon/Neat:
+4. Install Sass/Bourbon/Neat:
+
+  in your console write:
+
+          _gem install sass_
+
+  If you get an error message try:
+
+          _sudo gem install sass_
+
+  Then:
+
+        _gem install bourbon && gem install neat_
+
+  Finally:
+
+        _bourbon install && neat install_
+
+5. Watch your Sass project/ make changes with:
+
+        _sass --watch scss:css_
 
 ## Known Bugs
 
@@ -33,11 +50,10 @@ For questions or comments, please __email  [Kyle here.](baronsintrees@gmail.com)
 
 * HTML5
 * CSS3 with Sass, Bourbon and Neat
-* JavaScript with jQuery 3.1
 
 ### License
 
-Copyright (c) 2016 **_Kyle Lange_**
+Copyright (c) 2016 **_Kyle Lange & Ethan Law_**
 
 This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

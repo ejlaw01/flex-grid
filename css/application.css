@@ -4,7 +4,41 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+.row .box {
+  border: 1px solid black;
+  -webkit-box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.6);
+  margin: 10px;
+  height: 200px; }
+
 body {
-  background-color: tomato; }
+  max-width: 945px;
+  margin: 0 auto;
+  background-color: whitesmoke; }
+
+h1 {
+  text-align: center; }
+
+.row {
+  display: flex; }
+  .row .square {
+    flex-grow: 1; }
+  .row .rectangle {
+    flex-grow: 2; }
+  .row .sqrangle {
+    flex-grow: 1.5; }
+
+.blue {
+  background-color: #5F9EA0; }
+
+.salmon {
+  background-color: #FA8072; }
+
+.green {
+  background-color: #2E8B57; }
+
+.tan {
+  background-color: #F5DEB3; }
 
 /*# sourceMappingURL=application.css.map */

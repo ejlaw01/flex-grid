@@ -1,0 +1,43 @@
+//max width: 945px;
+
+body {
+  max-width: 945px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  .box {
+    @extend %tile;
+  }
+
+  .square {
+    flex-grow: 1;
+  }
+
+  .rectangle {
+    flex-grow: 2;
+  }
+
+  .sqrangle {
+    flex-grow: 1.5;
+  }
+}
+
+.blue {
+  background-color: $blue;
+}
+.salmon {
+  background-color: $salmon;
+}
+.green {
+  background-color: $green;
+}
+.tan {
+  background-color: $tan;
+}
